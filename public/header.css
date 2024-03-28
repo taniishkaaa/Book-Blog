@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: beige;
+  text-decoration: none;
+   
+}
+
+#root{
+    background: url('../img/books.jpg') cover/center no-repeat;
+    background-size: 100% 100%;
+    
+    
+}
+.box{
+    background-color: brown;
+    
+    height: 40px;
+    
+}
+.btn{
+    padding: 8px 30px;
+    display: flex;  
+   
+}
+
+
+.button{
+    margin: 0px 150px;
+    background: brown;
+  border: none;
+  
+
+  text-align: center;
+  
+ 
+  font-size: 20px;
+
+  cursor: pointer;
+}

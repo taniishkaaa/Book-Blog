@@ -7,6 +7,7 @@ function Header() {
 
   return (
     <BrowserRouter forceRefresh={true}>
+<<<<<<< Updated upstream
       <div className="app-root-1">
         <header className="Paper-root AppBar-root AppBar-colorPrimary Paper-elevation4">
           <div className="Toolbar-root Toolbar-regular header-appBar-13 Toolbar-gutters">
@@ -26,6 +27,22 @@ function Header() {
             </button>
             <button className="ButtonBase-root Button-root Button-text header-navButtons-3">
               <Link to="/about">About Us</Link>
+=======
+      <div className="box">
+        <header>
+          <div className="btn">
+            <button className="button">
+              <Link to="/">Home</Link>
+            </button>
+            <button className="button">
+              <Link to="/discover">Discover</Link>
+            </button>
+            <button className="button">
+              <Link to="/bestsellers">Bestsellers</Link>
+            </button>
+            <button className="button">
+              <Link to="/genre">Genre </Link>
+>>>>>>> Stashed changes
             </button>
           </div>
         </header>
